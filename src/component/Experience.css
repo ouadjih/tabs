@@ -1,0 +1,51 @@
+.container{
+    position: relative;
+    top: 1em;
+}
+.title{
+    font-weight: 600;
+}
+.subtitle{
+    background-color: rgba(128, 128, 128, 0.413);
+    color: rgb(128, 128, 128);
+    padding: .2em;
+    width: 3.9em;
+    border-radius: 0.2em;
+    font-size: 12px;
+    font-weight: 600;
+}
+.date{
+    color: rgb(167, 166, 166);
+    font-weight: 600;
+}
+p{
+    width: 600px;
+    position: relative;
+    left: 5em;
+}
+.icon{
+    position: relative;
+    top: 2.2em;
+    color: rgb(2, 198, 133);
+}
+
+.btn-info{
+    position: relative;
+    left: 21em;
+    top: 6em;
+    
+    border: 1px solid rgb(2, 198, 133);
+    background-color: transparent;
+    color: rgb(2, 198, 133);
+    border-radius: .3em;
+    cursor: pointer;
+    padding: .5em 2em;
+}
+.btn-info:hover{
+    background-color: rgb(2, 198, 133);
+    color: #fff;
+}
+.exp-details{
+    position: relative;
+    top:1em;
+}

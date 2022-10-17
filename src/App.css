@@ -1,0 +1,61 @@
+.App{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  height: 750px
+ 
+  
+}
+.left{
+width: 30%;
+text-align: center;
+position: relative;
+left: 1em;
+top: 13em;
+}
+.right{
+  position: relative;
+  top: 2em;
+  left: -15em;
+  width: 30%;
+
+}
+
+.line{
+  width: 4em;
+  padding: 2px;
+  background-color: rgb(2, 198, 133);
+
+  position: relative;
+  
+  left: 19em;
+  top: -1em;
+}
+h1{
+  position: relative;
+  left: 8em;
+  top: 0em;
+}
+.company{
+  position: relative;
+  left:-12em; 
+  padding: 0.8em 0em;
+  cursor: pointer;
+}
+.vline{
+  height: 25px;
+  width: 1px;
+  padding: 1px;
+  background-color:rgb(60, 61, 61);
+  position: relative;
+  top: 1.6em;
+  left: 7em;
+}
+.selectedL{
+  background-color:rgb(2, 198, 133);
+}
+.selected{
+  color:rgb(2, 198, 133);
+}
